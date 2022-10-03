@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "SF Pro Display";
+}
+
+.container {
+    padding: 70px;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.box {
+    width: 300px;
+    height: 430px;
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.macImg {
+    width: 300px;
+}
+
+.name {
+    margin-top: 40px;
+}
+
+.cena {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    margin-left: 5px;
+}
+
+.boxForCircle {
+    margin: 20px auto;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.by {
+    content: 'by';
+    color: white;
+    width: 70px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: royalblue;
+    margin-left: 10px;
+    border: none;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 {
+    width: 300px;
+    text-align: center;
+}
